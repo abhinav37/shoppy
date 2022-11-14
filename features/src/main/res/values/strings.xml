@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Shoppy</string>
+    <string name="all">All</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="price">Price:</string>
+    <string name="stock_remaining">Stock:</string>
+    <string name="image">Image</string>
+    <string name="download_image">Download image</string>
+    <string name="back">Back</string>
+    <string name="shoppy">Shoppy</string>
+    <string name="brand_name">Brand: %s</string>
+    <string name="clear">clear</string>
+    <string name="no_results_found">No results found. Please retry with a different keyword</string>
+    <string name="search_by_keyword">Search your favorite Products</string>
+    <string name="unknown">Unknown</string>
+    <string name="reload_from_server">Load from Server</string>
+    <string name="ongoing">Ongoing</string>
+    <string name="product_photos_title_label">Albums</string>
+    <string name="no_photos_found">No albums found</string>
+    <string name="error_text">Some error occurred. Please try again</string>
+    <string name="details_title">Product: %s</string>
+</resources>
