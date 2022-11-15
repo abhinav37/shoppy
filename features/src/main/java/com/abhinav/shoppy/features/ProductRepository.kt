@@ -70,7 +70,7 @@ class ProductRepositoryImpl @Inject constructor(
     }
 
     private fun getProductListFromDB(keyword: String) = try {
-        database.search(keyword)?.toProductListResponse()
+        database.search(keyword).toProductListResponse()
     } catch (e: Exception) {
         if (e is CancellationException) {
             throw e
@@ -79,7 +79,8 @@ class ProductRepositoryImpl @Inject constructor(
     }
 }
 
-private fun List<ProductEntity>.toProductListResponse() = this.map { it.toProduct() }
+private fun List<ProductEntity>.toProductListResponse() =
+    if (isEmpty()) null else map { it.toProduct() }
 
 private fun ProductEntity.toProduct(): Product = Product(id,
     title,

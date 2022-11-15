@@ -16,7 +16,7 @@ interface ProductDao {
     fun findById(productId: Int): ProductEntity?
 
     @Query("SELECT * FROM products WHERE title  LIKE '%' || :keyword || '%' OR description  LIKE '%' || :keyword || '%' ")
-    fun search(keyword: String): List<ProductEntity>?
+    fun search(keyword: String): List<ProductEntity>
 
     @Query("DELETE FROM products")
     fun deleteAll()
