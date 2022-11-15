@@ -4,6 +4,7 @@ import android.content.Context
 import coil.request.CachePolicy
 import coil.request.ImageRequest
 
+// Extension functions
 fun Int.formatToPrice(): String {
     return "$${this.toString().reversed().chunked(3).joinToString(",").reversed()}"
 }

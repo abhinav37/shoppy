@@ -32,7 +32,7 @@ import com.abhinav.shoppy.designsystem.theme.DSTypography
 import com.valentinilk.shimmer.Shimmer
 import com.valentinilk.shimmer.shimmer
 
-// Reuseable Components
+// Reusable Components
 @Composable
 fun ProductContentWithThumbnail(
     modifier: Modifier = Modifier,

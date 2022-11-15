@@ -31,6 +31,7 @@ import androidx.compose.ui.unit.dp
 import com.abhinav.shoppy.designsystem.theme.DSColors
 import com.abhinav.shoppy.designsystem.theme.DSTypography
 
+// Reusable Search Bar component
 @Composable
 fun SearchInput(
     value: String,

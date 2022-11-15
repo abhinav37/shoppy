@@ -31,6 +31,7 @@ import com.valentinilk.shimmer.ShimmerBounds
 import com.valentinilk.shimmer.rememberShimmer
 import com.valentinilk.shimmer.shimmer
 
+// Component to render Photos
 @Composable
 fun AlbumContent(
     modifier: Modifier = Modifier,
@@ -87,6 +88,7 @@ fun AlbumContent(
     }
 }
 
+// Placeholder to show shimmer on load
 @Composable
 fun LoadingAlbumContent(
     modifier: Modifier = Modifier,

@@ -12,6 +12,7 @@ import androidx.navigation.compose.rememberNavController
 import com.abhinav.shoppy.designsystem.theme.ShoppyTheme
 import dagger.hilt.android.AndroidEntryPoint
 
+// Single Activity used for all navigation
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

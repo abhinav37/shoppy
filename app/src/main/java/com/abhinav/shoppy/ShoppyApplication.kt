@@ -7,6 +7,8 @@ import coil.disk.DiskCache
 import coil.memory.MemoryCache
 import dagger.hilt.android.HiltAndroidApp
 
+// Application class with ImageLoader setup for coil to support offline caching
+
 @HiltAndroidApp
 class ShoppyApplication : Application(), ImageLoaderFactory {
     override fun newImageLoader(): ImageLoader {
